@@ -1,0 +1,7 @@
+body { font-family: Inter, Arial, sans-serif; margin:0; color:#222; background:#f8f9fb; }
+.wrap { max-width:1000px; margin:24px auto; padding:0 16px; }
+.site-header { background:#0b5cff; color:white; padding:12px 0; }
+.brand a { color:white; text-decoration:none; font-size:20px; }
+.main-nav a { color:rgba(255,255,255,0.9); margin-left:12px; text-decoration:none; }
+h2 { color:#0b3a8a; }
+footer { margin:36px 0; color:#666; font-size:13px; }
