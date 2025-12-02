@@ -12,7 +12,7 @@ Repositório inicial do projeto para a disciplina de Programação Web.
 - `develop` → branch de desenvolvimento  
 - `feature/nadin-setup` → branch da Nadin para configuração inicial  
 
-Outros membros do grupo devem criar suas próprias branches:  
+membros do grupo devem criar suas próprias branches:  
 `feature/nome-da-pessoa`.
 
 ## Como rodar o projeto
