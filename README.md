@@ -15,9 +15,19 @@ Repositório inicial do projeto para a disciplina de Programação Web.
 membros do grupo devem criar suas próprias branches:  
 `feature/nome-da-pessoa`.
 
+
+
 ## Como rodar o projeto
 
-### 1. Criar ambiente virtual:
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/nadii91/projeto-web
+cd projeto-web
+
+
+### 2. Criar ambiente virtual:
 
 python -m venv venv
 
@@ -27,16 +37,24 @@ Windows:
 
 venv\Scripts\activate
 
+###
+
 ### 3. Instalar dependências:
 
-pip install django
+pip install -r requirements.txt
 
 
-### 4. Rodar o servidor:
+### 4. Rodar as migrações
+
+python manage.py migrate
+
+
+
+### 5. Rodar o servidor:
 
 python manage.py runserver
 
 
-### 5. Acessar no navegador:
+### 6. Acessar no navegador:
 
 http://127.0.0.1:8000/
